@@ -1,0 +1,127 @@
+body {
+  margin: ;
+  font-family: sans-serif;
+  font-weight: 400;
+  background: #FFFAFA;
+ }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  padding: 10;
+  width: 100%;
+  
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  width: 200px;
+  height: auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-direction: row;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+nav a:hover {
+  color: red;
+}
+
+.grid h1 {
+  font-size: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  margin-top: 75px;
+}
+
+.grid h2 {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#display-icon {
+  float: left;
+  width: 30px;
+  height: auto;
+}
+
+#camera-icon {
+  float: left;
+  width: 30px;
+  height: auto;
+}
+
+#processor-icon {
+  float: left;
+  width: 30px;
+  height: auto;
+}
+
+.grid p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#blackiphone {
+  float: right;
+  width: 200px;
+  height: auto;
+}
+
+#blueiphone {
+  float: right;
+  width: 250px;
+  height: auto;
+}
+
+.product h1 {
+  font-size: 50px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.product h2 {
+ font-size: 25px;
+ font-family: 'Titillium Web', sans-serif;
+}
+
+.product h3 {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.product li {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#reviews h1 {
+  font-size: 50px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+@media (max-width: 600px) {
+  #video {
+    height: 320px;
+    width: 550px;
+    
+  }
+}
